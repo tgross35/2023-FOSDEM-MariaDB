@@ -2,14 +2,14 @@
 
 ## Abstract
 
-This presentation will discuss Rust usage as it relates to the [MariadDB Server]
-(https://mariadb.org/about/) project. The relationship started with the `udf`
-crate which makes it easy to write dynamically loaded callable SQL functions
-(user-defined functions of UDFs) in Rust, where C and C++ have been the
-precedent. There is now a work in progress to provide a safe Rust interface for
-the plugin API which will enable writing encryption and authentication
-protocols, information schemas, and even storage engines in Rust. These can
-be compiled in or dynamically loaded.
+This presentation will discuss Rust usage as it relates to the
+[MariadDB Server](https://mariadb.org/about/) project. The relationship started
+with the `udf` crate which makes it easy to write dynamically loaded callable
+SQL functions (user-defined functions of UDFs) in Rust, where C and C++ have
+been the precedent. There is now a work in progress to provide a safe Rust
+interface for the plugin API which will enable writing encryption and
+authentication protocols, information schemas, and even storage engines in Rust.
+These can be compiled in or dynamically loaded.  
 
 Our presentation will discuss the state of these ongoing projects including
 project design, basic usage with examples, work that lies ahead, and information
@@ -29,9 +29,9 @@ We would prefer a 20 minute time slot.
 
 ## Expected prior knowledge / intended audience
 
-This presentation will be rather general, and expected knowledge is minimal.
-We aim to cater to those who have a basic understanding of Rust at least a
-general familiarity of SQL, but neither is required.
+This presentation will be rather general, and expected knowledge is minimal. We
+aim to cater to those who have a basic understanding of Rust at least a general
+familiarity of SQL, but neither is required.
 
 
 ## Speaker bios

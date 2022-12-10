@@ -4,18 +4,21 @@
 
 This presentation will discuss Rust usage as it relates to the
 [MariadDB Server](https://mariadb.org/about/) project. The relationship started
-with the `udf` crate which makes it easy to write dynamically loaded callable
-SQL functions (user-defined functions of UDFs) in Rust, where C and C++ have
+with the [`udf`] crate which makes it easy to write dynamically loaded callable
+SQL functions (user-defined functions or UDFs) in Rust, where C and C++ have
 been the precedent. There is now a work in progress to provide a safe Rust
 interface for the plugin API which will enable writing encryption and
-authentication protocols, information schemas, and even storage engines in Rust.
-These can be compiled in or dynamically loaded.  
+authentication protocols, information schemas, and even storage engines in Rust;
+areas that can easily lead to exploits if not written correctly. These plugins
+can be compiled in or dynamically loaded.  
 
-Our presentation will discuss the state of these ongoing projects including
-project design, basic usage with examples, work that lies ahead, and information
-on how to contribute. We will also talk about evaluation of the future of the
-Rust-MariaDB relationship.
+MariaDB is one of the most popular open-source databases, so these projects will
+bring some exciting possibilities in that area. Our presentation will discuss
+the state of these ongoing projects including project design, basic usage with
+examples, work that lies ahead, and information on how to contribute. We will
+also talk about evaluation of the future of the Rust-MariaDB relationship.
 
+[`udf`]: https://docs.rs/udf/latest/udf/
 
 ## Session type
 
@@ -63,3 +66,5 @@ everyone.
 
 ## Links to previous talks by the speaker
 
+Daniel has done [a number of talks](https://www.youtube.com/results?search_query=daniel+black+mariadb)
+relating to MariaDB. Trevor has not done a talk before.

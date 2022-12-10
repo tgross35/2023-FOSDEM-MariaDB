@@ -4,13 +4,12 @@
 
 This presentation will discuss Rust usage as it relates to the
 [MariadDB Server](https://mariadb.org/about/) project. The relationship started
-with the [`udf`] crate which makes it easy to write dynamically loaded callable
-SQL functions (user-defined functions or UDFs) in Rust, where C and C++ have
-been the precedent. There is now a work in progress to provide a safe Rust
-interface for the plugin API which will enable writing encryption and
-authentication protocols, information schemas, and even storage engines in Rust;
-areas that can easily lead to exploits if not written correctly. These plugins
-can be compiled in or dynamically loaded.  
+with the experimental [`udf`] crate which makes it easy to write dynamically
+loaded callable SQL functions (user-defined functions or UDFs) in Rust, where C
+and C++ have been the precedent. There is now a work in progress to provide a
+safe Rust interface for the plugin API which will enable writing encryption and
+authentication protocols, information schemas, and even storage engines in Rust.
+These plugins can be compiled in or dynamically loaded.  
 
 MariaDB is one of the most popular open-source databases, so these projects will
 bring some exciting possibilities in that area. Our presentation will discuss
